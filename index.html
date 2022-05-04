@@ -1,0 +1,201 @@
+<!--
+* Nama : Nasruddin
+* NIM : 200180020
+* Prodi : A1 Sistem Informasi
+* MK : Pemogramman Web II 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nas Dev</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrep Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <marquee behavior="" direction="">Name: Nasruddin 200180020 A1 Prodi: A1 Sistem Informasi MK: Pemogramman Web II</marquee> -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/img/NasDev.png" alt="logo" width="120" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#products">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/about/index.html">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav">
+                        <a class="nav-link" aria-current="page" href="/cart/cart.html"><i class="bi bi-cart-plus-fill"></i><sup class="badge rounded-pill bg-primary">2</sup></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="row jumbotron jumbotron-fluid mt-4">
+            <div class="col-md-6 order-1">
+                <h3 class="text-start text-info my-3">Selamat Datang NasDev Shop</h3>
+                <p class="lead text-start">
+                    Jika Anda seorang programmer, pengembang perangkat lunak, atau sekadar penggemar teknologi, 
+                    maka Anda berada di tempat yang tepat! Kami menawarkan desain teknologi dan humor dalam pakaian dan 
+                    aksesori untuk menjadikan hari kerja Anda istimewa!
+                </p>
+            </div>
+            <div class="col-md-6 order-2 my-2">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <div class="carousel-item active">
+                            <img src="/img/slide/satu.png" width="100%" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/slide/dua.png" width="100%" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/slide/tiga.png" width="100%" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/slide/empat.png" width="100%" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Promosi -->
+    <section id="my-keyboards">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My DRESS PROMOSI</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">HOODIES</h4>
+                        <img src="img/slide/1.png" alt="HOODIES" class="keyboard-img"  width="65%"/>
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">SWEATSHIRTS</h4>
+                        <img src="img/slide/3.png" alt="SWEATSHIRTS" class="keyboard-img"  width="65%" />
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="keyboard-box">
+                        <h4 class="keyboard-name">SWEATSHIRTS</h4>
+                        <img src="img/slide/4.png" alt="SWEATSHIRTS" class="keyboard-img"  width="65%" />
+                        <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- list menu item -->
+    <div class="container">
+        <ul class="nav justify-content-center mt-5" id="products">
+            <li class="nav-item">
+                <a class="nav-item nav-link menuItem" aria-current="page" href="#">All Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link menuItem" aria-current="page" href="#">TShirts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link menuItem" aria-current="page" href="#">Mugs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link menuItem" aria-current="page" href="#">Hoodies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link menuItem" aria-current="page" href="#">Sweatshirts</a>
+            </li>
+        </ul>
+        <div class="input-group mb-3">
+            <input type="text" class="form my-4" placeholder="Cari Product..." aria-describedby="basic-addon2" id="cari"/>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h1 id="menu-list">All Menu</h1>
+            </div>
+        </div>
+
+        <div class="row" id="daftar-menu"></div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>&copy; 2022 Nas Dev</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Js -->
+    <script src="/js/script.js"></script>
+    <!-- 3d -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
+            max: 35,
+            speed: 1000,
+            glare: true,
+        });
+    </script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

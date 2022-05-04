@@ -1,0 +1,299 @@
+/* 
+* Nama : Nasruddin
+* NIM : 200180020
+* Prodi : A1 Sistem Informasi
+* MK : Pemogramman Web II
+ */
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    background-color: #42E4ED;
+    border: none;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 12px;
+    outline: none;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.nav-item:before,
+.nav-item:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    position: absolute;
+    width: 10px;
+}
+
+.nav-item:before {
+    border-color: #42E4ED;
+    border-top-width: 2px;
+    left: 0px;
+    top: -5px;
+}
+
+.nav-item:after {
+    border-bottom-width: 2px;
+    border-color: #42E4ED;
+    bottom: -5px;
+    right: 0px;
+}
+
+.nav-item:hover {
+    background-color: #42E4ED;
+}
+
+
+.menuItem {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 0.4ms;
+}
+
+.jumbotron {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.jumbotron .display {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jumbotron .display span {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jumbotron .lead {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jumbotron img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    transition: all;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(88 199 250 / 100%);
+    transition: color 1s;
+}
+
+
+.btn {
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(85, 82, 97);
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: start;
+    margin: 0 0 30px 0;
+    letter-spacing: 5px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    height: 50%;
+    letter-spacing: 5px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #42E4ED;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all;
+}
+
+.sosial a{
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #c47135;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all;
+}
+
+.sosial .fbk:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+.sosial .ig:hover {
+    background-color: #e1306c;
+    color: #fff;
+}
+.sosial .git:hover {
+    background-color: #24292e;
+    color: #fff;
+}
+.sosial .wa:hover {
+    background-color: #15ff00;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .collapse {
+        text-align: center;
+        justify-content: center;
+        transition: 0.2ms;
+    }
+
+    /* .card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    } */
+}
+
+/* My Keyboard Section */
+.keyboard-box {
+    position: relative;
+    background-color: #42E4ED;
+    border-radius: 10px;
+    height: 460px;
+    transform-style: preserve-3d;
+}
+
+.keyboard-box::before {
+    content: 'MY';
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.keyboard-box:hover::before {
+    opacity: 0.2;
+}
+
+.keyboard-box::after {
+    content: 'DRESS';
+    position: absolute;
+    color: #fff;
+    font-size: 4.3em;
+    font-weight: bold;
+    font-style: italic;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.keyboard-box:hover::after {
+    opacity: 0.2;
+}
+
+.keyboard-name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0;
+    transform: translate3d(0, 0, 50px);
+    transition: 0.5s;
+}
+
+.keyboard-box:hover .keyboard-name {
+    top: 20px;
+    opacity: 1;
+}
+
+.keyboard-detail-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 100px);
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.keyboard-box:hover .keyboard-detail-button {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.keyboard-img {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate3d(-50%, -52%, 80px);
+    max-width: 350px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.keyboard-box:hover .keyboard-img {
+    transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}

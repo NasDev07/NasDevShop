@@ -1,0 +1,110 @@
+{
+    "menu": [
+        {
+            "kategori": "tshirts",
+            "nama": "'ANDROID' Short-Sleeve Unisex T-Shirt",
+            "deskripsi": "This t-shirt is everything you've dreamed of and more.",
+            "harga": 150500,
+            "gambar": "/T-Shirts1.png"
+
+        },
+        {
+            "kategori": "tshirts",
+            "nama": "'ANGULAR' T-Shirt",
+            "deskripsi": "This t-shirt is everything you've dreamed of and more. It feels soft and lightweight.",
+            "harga": 150500,
+            "gambar": "/T-Shirts2.png"
+        },
+        {
+            "kategori": "tshirts",
+            "nama": "'REACT' T-Shirt",
+            "deskripsi": "This t-shirt is everything you've dreamed of and more. It feels soft and lightweight",
+            "harga": 150500,
+            "gambar": "/T-Shirts3.png"
+        },
+        {
+            "kategori": "tshirts",
+            "nama": "'VUE' T-Shirt",
+            "deskripsi": "This t-shirt is everything you've dreamed of and more",
+            "harga": 150500,
+            "gambar": "/T-Shirts4.png"
+        },
+        {
+            "kategori": "mugs",
+            "nama": "'GET (SH)IT DONE'Mug",
+            "deskripsi": "Keramik, Pencuci piring dan microwave aman, Putih dan mengkilap",
+            "harga": 50100,
+            "gambar": "/Mugs1.png"
+        },
+        {
+            "kategori": "mugs",
+            "nama": "'I HAVE NO IDEA WHAT I'M DOING' Mug",
+            "deskripsi": "Keramik, Pencuci piring dan microwave aman, Putih dan mengkilap",
+            "harga": 50100,
+            "gambar": "/Mugs2.png"
+        },
+        {
+            "kategori": "mugs",
+            "nama": "'IT WORKS ON MY MACHINE' Mug",
+            "deskripsi": "Keramik, Pencuci piring dan microwave aman, Putih dan mengkilap",
+            "harga": 50100,
+            "gambar": "/Mugs3.png"
+        },
+        {
+            "kategori": "hoodies",
+            "nama": "'IT WORKS ON MY MACHINE' Hoodie",
+            "deskripsi": "Setiap orang membutuhkan hoodie yang nyaman untuk dipakai meringkuk, jadi pilihlah hoodie yang lembut, halus, dan bergaya.",
+            "harga": 775443,
+            "gambar": "/Hoodies1.png"
+        },
+        {
+            "kategori": "hoodies",
+            "nama": "'PYTHON' Hoodie",
+            "deskripsi": "Setiap orang membutuhkan hoodie yang nyaman untuk dipakai meringkuk, jadi pilihlah hoodie yang lembut, halus, dan bergaya.",
+            "harga": 775443,
+            "gambar": "/Hoodies2.png"
+        },
+        {
+            "kategori": "hoodies",
+            "nama": "'CODE BREAKER' Hoodie",
+            "deskripsi": "Setiap orang membutuhkan hoodie yang nyaman untuk dipakai meringkuk, jadi pilihlah hoodie yang lembut, halus, dan bergaya.",
+            "harga": 775443,
+            "gambar": "/Hoodies3.png"
+        },
+        {
+            "kategori": "sweatshirts",
+            "nama": "'JAVASCRIPT' Sweatshirt",
+            "deskripsi": "Sweatshirt kokoh dan hangat yang akan membuat Anda tetap hangat di bulan-bulan yang lebih dingin.",
+            "harga": 160946,
+            "gambar": "/Sweatshirts1.png"
+        },
+        {
+            "kategori": "sweatshirts",
+            "nama": "'FRONTEND DEVELOPER' Dark Sweatshirt",
+            "deskripsi": "Sweatshirt kokoh dan hangat yang akan membuat Anda tetap hangat di bulan-bulan yang lebih dingin.",
+            "harga": 160946,
+            "gambar": "/Sweatshirts2.png"
+        },
+        {
+            "kategori": "sweatshirts",
+            "nama": "'SUDO BRING ME COFFEE' Sweatshirt",
+            "deskripsi": "Sweatshirt kokoh dan hangat yang akan membuat Anda tetap hangat di bulan-bulan yang lebih dingin.",
+            "harga": 160946,
+            "gambar": "/Sweatshirts3.png"
+        },
+        {
+            "kategori": "sweatshirts",
+            "nama": "'FULLSTACK DEVELOPER' Dark Sweatshirt",
+            "deskripsi": "Sweatshirt kokoh dan hangat yang akan membuat Anda tetap hangat di bulan-bulan yang lebih dingin.",
+            "harga": 160946,
+            "gambar": "/Sweatshirts4.png"
+        },
+        {
+            "kategori": "sweatshirts",
+            "nama": "BACKEND DEVELOPER' Dark Sweatshirt",
+            "deskripsi": "Sweatshirt kokoh dan hangat yang akan membuat Anda tetap hangat di bulan-bulan yang lebih dingin.",
+            "harga": 160946,
+            "gambar": "/Sweatshirts5.png"
+        }
+    ]
+}
