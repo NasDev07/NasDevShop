@@ -5,6 +5,20 @@
 * MK : Pemogramman Web II
  */
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #24292e;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #42E4ED;
+    border-radius: 50px;
+}
+
 :root {
     scroll-behavior: smooth;
 }
@@ -165,7 +179,7 @@ footer {
     transition: all;
 }
 
-.sosial a{
+.sosial a {
     margin: 0 auto;
     width: 50%;
     height: 50px;
@@ -181,14 +195,17 @@ footer {
     background-color: #3b5998;
     color: #fff;
 }
+
 .sosial .ig:hover {
     background-color: #e1306c;
     color: #fff;
 }
+
 .sosial .git:hover {
     background-color: #24292e;
     color: #fff;
 }
+
 .sosial .wa:hover {
     background-color: #15ff00;
     color: #fff;
